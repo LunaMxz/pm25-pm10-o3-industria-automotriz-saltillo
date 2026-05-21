@@ -1,0 +1,25 @@
+# ── Archivos de datos (descarga manual requerida) ──────
+# Estos archivos son de fuentes públicas oficiales (SINAICA-INECC e INEGI)
+# Descárgalos manualmente siguiendo las instrucciones del README
+
+*.xlsx
+*.xls
+*.csv
+
+# ── Gráficas generadas por el notebook ─────────────────
+# Se generan automáticamente al ejecutar analisis_calidad_aire.ipynb
+grafica*.png
+grafica*.jpg
+sinaica*_IMAGE*.png
+sinaica*_IMAGE*.jpg
+
+# ── Archivos temporales de Jupyter ─────────────────────
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Sistema operativo ───────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
